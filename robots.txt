@@ -1,0 +1,257 @@
+<html>
+<head>
+
+    
+        <!-- Google counter-->
+        <style>.async-hide { opacity: 0 !important} </style>
+
+        <!-- Google counter-->
+        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Как законно списать свои долги по кредитам? Рефинансирование не лучший выход, когда нечем платить кредит.">
+    <meta name="author" content="">
+
+    <title>Банкротство физических лиц. Как признать себя банкротом и законно списать долги по кредитам.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favico1.png" type="image/x-icon">
+    <link rel="icon" href="img/favico1.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+<!-- header -->
+<div class="container-fluid" style="background-image: url(img/background-02-30.jpg);">
+        <div class="container">
+            <div>
+                <div class="hidden-sm hidden-xs text-center" style="margin-bottom: 15px;">
+                    <img class="responsive" style="max-width: 500px; " src="img/crust-ru-l.png">
+                </div>
+                <div class="visible-sm visible-xs text-center" style="margin-bottom: 15px;">
+                    <img class="responsive" src="img/crust-ru-250.png">
+                </div>
+
+                <div class="text-center">
+                    <h1 class="">Ваш долг более 300 000 руб?<br />Спишите его законно!</h1>
+                    <h4 class="">Изучим Вашу ситуацию и предложим 1-3 варианта решения проблем с кредитами. Переходите к заполнению анкеты.</h4>
+                </div>
+
+
+            <form id="marketing-form" action='/send/new2.php' method='POST' onsubmit="sendGoal()">
+                <input name="utm_source" value="" type="hidden">
+                <input name="utm_campaign" value="" type="hidden">
+                <input name="utm_content" value="" type="hidden">
+                <input name="utm_medium" value="" type="hidden">
+                <input name="utm_term" value="" type="hidden">
+
+                <input name="ccode" value="" type="hidden">
+
+                <input name="form_id" value="tnb" type="hidden">
+                <input name="vip" value="0" type="hidden">
+                <input name="spcprc" value="0" type="hidden">
+
+                
+
+<div class="desc left">
+    <p>1. Общая сумма Вашей задолженности</p>
+    <input id="debt01" name="debt" type="radio" value="Менее 100к"><label for="debt01">Менее 100 тыс. руб.</label><br>
+    <input id="debt02" name="debt" type="radio" value="100 - 300к"><label for="debt02">100 - 300 тыс. руб.</label><br>
+    <input id="debt03" name="debt" type="radio" value="300 - 500к"><label for="debt03">300 - 500 тыс. руб.</label><br>
+    <input id="debt04" name="debt" type="radio" value="500-1 млн"><label for="debt04">500 - 1 млн. руб.</label><br>
+    <input id="debt05" name="debt" type="radio" value="1млн+"><label for="debt05">Более 1 млн. руб.</label><br>
+</div>
+
+<div class="desc left">
+    <p>2. Количество кредиторов</p>
+    <input id="creditors01" name="creditors" type="radio" value="Один"><label for="creditors01">Один</label><br>
+    <input id="creditors02" name="creditors" type="radio" value="Два"><label for="creditors02">Два</label><br>
+    <input id="creditors03" name="creditors" type="radio" value="Три"><label for="creditors03">Три</label><br>
+    <input id="creditors04" name="creditors" type="radio" value="Четыре и более"><label for="creditors04">Четыре и более</label>
+    <br>
+</div>
+
+<div class="desc left">
+    <p>3. Официальный ежемесячный доход</p>
+    <input id="income01" name="income" type="radio" value="Менее 10к"><label for="income01">Менее 10 тыс. руб.</label><br>
+    <input id="income02" name="income" type="radio" value="10 - 30к"><label for="income02">10 - 30 тыс. руб.</label><br>
+    <input id="income03" name="income" type="radio" value="30к+"><label for="income03">Более 30 тыс. руб.</label><br>
+</div>
+
+
+<div class="desc left">
+    <p>4. Являетесь ли Вы действующим индивидуальным предпринимателем?</p>
+    <input id="businessman01" name="businessman" type="radio" value="Да"><label for="businessman01">Да</label><br>
+    <input id="businessman02" name="businessman" type="radio" value="Нет"><label for="businessman02">Нет</label><br>
+</div>
+
+<div class="desc left">
+    <p>5. Оформлена ли на Вас ипотека?
+    <h5>Вы можете быть единственным заемщиком, со-заемщиком или поручителем</h5></p>
+    <input id="hypothec01" name="hypothec" type="radio" value="Да"><label for="hypothec01">Да</label><br>
+    <input id="hypothec02" name="hypothec" type="radio" value="Нет"><label for="hypothec02">Нет</label><br>
+</div>
+
+<div class="desc left ">
+    <span class="name-text">6. Ваше имя:</span>
+    <input style="
+                        line-height: 20px;
+                        border: none;
+                        border-bottom: 1px solid;
+                        border-color: #232831;
+                        background-color: #fff;
+                        color: #232831;" class="col-md-12 name left" type="text" name="name"  placeholder="" required="">
+</div>
+
+<div class="desc left" >
+    <span class="phone-text">7. Ваш номер телефона:</span>
+    <input style="margin-bottom: 48px;
+                        line-height: 20px;
+                        border: none;
+                        border-bottom: 1px solid;
+                        border-color: #232831;
+                        background-color: #fff;
+                        color: #232831;"
+           class="col-md-12 phone left phone-mask" type="text" name="phone"  placeholder="" title="89xxxxxxxxx" required="" pattern="89[0-9]{9}">
+</div>
+
+<div class="desc left">
+    <p>8. Я хочу получить результат анализа моей ситуации!<br>
+    <h5>Согласен на юридический анализ и получение информации о списании просроченных кредитов в рамках процедуры признания финансовой несостоятельности (банкротства) по 127-ФЗ. Подтверждаю согласие на обработку Персональных данных.</h5></p>
+    <input id="personal_data" name="personal_data" type="radio" value="Согласен"><label for="personal_data">Я согласен</label><br>
+</div>
+
+                <br>
+                <br>
+
+                <div style="width: 100%; min-height: 70px;" class="text-center">
+                    <input class="btn btn-lg"
+                           style="
+                                margin-bottom: 20px;
+                                display: inline;
+                                width: 90%;
+                                max-width: 400px;
+                                line-height: 40px;
+                                border-radius: 5px!important;
+                                background-color: #1d6ac6;
+                                color: #fff;
+                                font-weight: 500;
+                                font-size: 120%;
+                                text-transform: uppercase!important;"
+                           name="submit" type="submit"  value="Отправить">
+                </div>
+
+                <div style="clear:both;margin-bottom: 10px;"></div>
+
+            </form>
+
+            <div class="col-md-12 text-center" style="border-top: 1px solid #dddddd; margin: 10px 0px;">
+              <p style="font-size: 12px; margin: 5px;"><a href="mailto:info@тест-на-банкротство.рф">info@тест-на-банкротство.рф</a></p>
+                <p style="font-size: 12px; margin: 5px;">Кредитный юрист "А-Макс" ИНН 424009257 ОГРН 1187456019838</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 742305434-vip-talama-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-742305434"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-742305434');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics vipunov -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144185285-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-144185285-1');
+    </script>
+    <!-- Rating@Mail.ru counter agency -->
+    <script type="text/javascript">
+        var _tmr = window._tmr || (window._tmr = []);
+        _tmr.push({id: "3131783", type: "pageView", start: (new Date()).getTime()});
+        (function (d, w, id) {
+            if (d.getElementById(id)) return;
+            var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+            ts.src = "https://top-fwz1.mail.ru/js/code.js";
+            var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+            if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+        })(document, window, "topmailru-code");
+    </script><noscript><div>
+            <img src="https://top-fwz1.mail.ru/counter?id=3131783;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
+        </div></noscript>
+    <!-- //Rating@Mail.ru counter -->
+
+
+    <!-- Yandex.Metrika counter-vip -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(55675255, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/55675255" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <script type="text/javascript">
+        function sendGoal() {
+            // myTarget
+           
+            var _tmr = window._tmr || (window._tmr = []);
+            _tmr.push({ id: '3131783', type: 'reachGoal', goal: 'order_success' });
+            
+            // GA
+            ga ('send', 'event', 'submit', 'order_success');
+
+            // Yandex.Metrika
+            yaCounter55675255.reachGoal ('order_success');
+
+            console.log('order_success');
+
+            return true;
+        }
+    </script>
+
+
+<!-- ее -->
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/lightbox/js/lightbox.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
